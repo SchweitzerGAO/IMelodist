@@ -441,8 +441,8 @@ def generate_uncommon_chord_audio(n: int = 2000):
     print(f"{len(generated)} of {n} generated")
     metadata.close()
 
-# generate_note_audio()
-# generate_interval_audio()
-# generate_common_chord_audio()
+generate_note_audio()
+generate_interval_audio()
+generate_common_chord_audio()
 generate_uncommon_chord_audio(n=500)
 
